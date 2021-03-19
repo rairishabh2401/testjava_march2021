@@ -1,0 +1,44 @@
+			div{
+				width:400px;
+				height:300px;
+				border:2px solid red;
+				border-radius:6px;
+				float:left;
+				margin:20px;
+				padding:5px;
+				}
+				
+			#img{
+				background-image:url(Images/mickey.jfif);
+				background-repeat:no-repeat;
+				background-position: center;
+				background-color:yellow;
+			}
+			
+			#img:hover{
+				transform: rotate(60deg);
+				
+			}
+			
+			#tbl:hover{
+				border-collapse:collapse;
+				border-radius:4px;
+				background-color:pink;
+				animation:myanimation1 5s infinite;
+				}
+				
+			@keyframes myanimation1{
+				from{height:200px;width:200px;}
+				to{height:300px;width:400px;}
+				}
+				
+			.Div3{
+			background-color:Yellow;
+			padding-right:20px;
+			padding-top:20px;
+		}
+		.Div3:hover{
+			background-color:Green;
+			transform:translate(100px,100px);
+			transform:scaleX(10px);
+		}
